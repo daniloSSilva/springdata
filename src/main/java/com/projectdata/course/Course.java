@@ -15,7 +15,7 @@ public class Course {
 	private String description;
 	
 	@ManyToOne
-	private Topic topic;
+	private Topic topic; 
 
 	public Course() {
 		
